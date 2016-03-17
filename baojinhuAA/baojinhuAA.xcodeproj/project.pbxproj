@@ -13,6 +13,7 @@
 		C224F8FA1C9A3EBA004B32D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C224F8F81C9A3EBA004B32D9 /* Main.storyboard */; };
 		C224F8FC1C9A3EBA004B32D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C224F8FB1C9A3EBA004B32D9 /* Assets.xcassets */; };
 		C224F8FF1C9A3EBA004B32D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C224F8FD1C9A3EBA004B32D9 /* LaunchScreen.storyboard */; };
+		C224F9081C9A44E5004B32D9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C224F9071C9A44E5004B32D9 /* TableViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C224F8FB1C9A3EBA004B32D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C224F8FE1C9A3EBA004B32D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C224F9001C9A3EBA004B32D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C224F9061C9A44E5004B32D9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C224F9071C9A44E5004B32D9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				C224F8F31C9A3EBA004B32D9 /* AppDelegate.m */,
 				C224F8F51C9A3EBA004B32D9 /* ViewController.h */,
 				C224F8F61C9A3EBA004B32D9 /* ViewController.m */,
+				C224F9061C9A44E5004B32D9 /* TableViewController.h */,
+				C224F9071C9A44E5004B32D9 /* TableViewController.m */,
 				C224F8F81C9A3EBA004B32D9 /* Main.storyboard */,
 				C224F8FB1C9A3EBA004B32D9 /* Assets.xcassets */,
 				C224F8FD1C9A3EBA004B32D9 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				C224F8F71C9A3EBA004B32D9 /* ViewController.m in Sources */,
 				C224F8F41C9A3EBA004B32D9 /* AppDelegate.m in Sources */,
 				C224F8F11C9A3EBA004B32D9 /* main.m in Sources */,
+				C224F9081C9A44E5004B32D9 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
